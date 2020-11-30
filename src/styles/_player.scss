@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    color: rgba(48, 135, 235, 0.836);
+    color: rgb(223, 230, 236);
     box-shadow: 2px ;
 }
 
@@ -55,7 +55,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .animate-track {
-    background: rgb(204, 204, 204);
+    background: rgb(223, 230, 236);
     width: 100%;
     height: 100%;
     position: absolute;

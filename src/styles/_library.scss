@@ -4,12 +4,16 @@
     left: 0;
     width: 20rem;
     height: 100%;
-    background: rgba(124, 99, 218, 0.836);
+    background: rgb(0, 54, 75);
     box-shadow: 2px 2px 50px rgb(204, 204, 204);
     overflow: scroll;
     transform: translate(-100%);
     transition: all 0.5s;
-    opacity: 0; 
+    opacity: 0;
+    -webkit-transform: translate(-100%);
+    -moz-transform: translate(-100%);
+    -ms-transform: translate(-100%);
+    -o-transform: translate(-100%);
 }
 
 h2 {
@@ -26,7 +30,15 @@ h2 {
         width: 30%;
     }
     &:hover {
-        background: rgba(72, 238, 141, 0.397);
+        background: #cbe1e9;
+        h3{
+            font-size: 1rem;
+            color: rgb(0, 54, 75);
+        }
+        h4{
+             font-size: 0.7rem;
+             color: rgb(0, 54, 75);
+        }
     }
 }
 
@@ -54,14 +66,22 @@ h2 {
     background: transparent;
 }
 *::-webkit-scrollbar-thumb {
-    background-color: rgba(84, 236, 160, 0.5);
+    background-color: rgb(223, 230, 236);
     border-radius: 20px;
   
     border: transparent;
 }
 
 .selected {
-    background: rgba(44, 240, 126, 0.575);
+    background: #d5ecf3;
+    h3{
+        font-size: 1rem;
+        color: #12354b;
+    }
+    h4{
+         font-size: 0.7rem;
+         color: #12354b;
+    }
 }
 
 .active-library {

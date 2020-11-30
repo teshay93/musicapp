@@ -3,8 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 h1,h2,h3 {
-    color: rgb(54, 54, 54);
+    color: rgb(206, 211, 216);
 }
 
 body {
@@ -13,16 +14,22 @@ body {
 
 h3,h4 {
     font-weight: 400;
-    color: rgb(121, 120, 120);
+    color: rgba(224, 227, 231, 0.596);
 }
 
 .App {
     transition: all 0.5s ease;
+    min-height: 100vh;
+    min-width: 100vh;
+    background: linear-gradient(#001624, #00c2ff);
 }
 
 .library-active{
-    margin-left: 30%;
+    margin-left: 20%;
 }
+
+
+
 
 @import "./player";
 @import "./song";

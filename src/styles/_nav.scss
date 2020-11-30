@@ -6,8 +6,9 @@ nav {
     button {
         background: transparent;
         border: none;
+        color: rgb(206, 211, 216);
         cursor: pointer;
-        border: 2px solid rgba(48, 135, 235, 0.836);
+        border: 2px solid rgb(206, 211, 216);
         padding: 0.5rem;
         transition: all 0.3s ease;
         &:hover{

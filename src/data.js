@@ -61,7 +61,16 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
-    //ADD MORE HERE
+    {
+      name: "Hidden Structure",
+      cover: 
+      "https://chillhop.com/wp-content/uploads/2020/09/88e7eb711f8c71d87fc102e97cf91e36f692348d-1024x1024.jpg",
+      artist: "Leavv, Flitz&Suppe",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=9915",
+      color: ["#D5E6A6", "#D49266"],
+      id: uuidv4(),
+      active: false,
+    },
   ];
 }
 
