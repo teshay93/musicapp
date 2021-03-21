@@ -1,5 +1,7 @@
 import React from 'react';
 import LibrarySong from './LibrarySong';
+import { faPlay, faPause } from '@fortawesome/free-solid-svg-icons';
+
 
 const Library = ({ songs, setCurrentSong, audioRef, isPlaying, setSongs, libraryStatus }) => {
     return (
